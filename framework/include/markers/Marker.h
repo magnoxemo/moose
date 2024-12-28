@@ -57,7 +57,8 @@ public:
     DONT_MARK = -1,
     COARSEN,
     DO_NOTHING,
-    REFINE
+    REFINE,
+    AMALGAMATE
   };
 
   /**

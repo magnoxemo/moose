@@ -58,7 +58,7 @@ public:
     COARSEN,
     DO_NOTHING,
     REFINE,
-    AMALGAMATE
+    AMALGAMATE=8
   };
 
   /**

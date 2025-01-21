@@ -61,7 +61,7 @@ Marker::Marker(const InputParameters & parameters)
 MooseEnum
 Marker::markerStates()
 {
-  MooseEnum marker_states("DONT_MARK=-1 COARSEN DO_NOTHING REFINE");
+  MooseEnum marker_states("DONT_MARK=-1 COARSEN DO_NOTHING REFINE AMALGAMATE");
 
   return marker_states;
 }
